@@ -58,4 +58,16 @@ dependencies {
 
     implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0")
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.2.0")
+
+    implementation ("androidx.room:room-runtime:2.2.6")
+    kapt ("androidx.room:room-compiler:2.2.6")
+    implementation ("androidx.room:room-ktx:2.2.6")
+    testImplementation("androidx.room:room-testing:2.2.6")
+
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
+
+    //ML kit vision
+    implementation ("com.google.android.gms:play-services-mlkit-text-recognition:17.0.0")
+  // implementation ("com.github.shubham0204:Text2Summary-Android:alpha-05")
 }
