@@ -38,6 +38,7 @@ android {
     dataBinding {enable = true}
 }
 
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -69,5 +70,9 @@ dependencies {
 
     //ML kit vision
     implementation ("com.google.android.gms:play-services-mlkit-text-recognition:17.0.0")
-  // implementation ("com.github.shubham0204:Text2Summary-Android:alpha-05")
+    implementation ("com.github.shubham0204:Text2Summary-Android:alpha-05")
+    implementation("com.vanniktech:android-image-cropper:4.5.0")
+    implementation ("com.github.KwabenBerko:OpenWeatherMap-Android-Library:2.1.0")
+    //implementation("the.bot.box:horoscope-api:1.0.2")
 }
+
